@@ -23,5 +23,7 @@ int main()
   	divide=a/(float)b;
   	printf("\nDivision of first number by second number =%.2f",divide);
 
+	printf("%i / %i = %i\n", a, b, a/b);
+
 	return 0;
 }
